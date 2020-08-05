@@ -1,1 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
+html {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit
+    
+}
+
+/*Navbar elements*/
+
+header {
+    background-color: #416422;
+    color: #ffffff;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 50px;
+}
+
+#header_container {
+    width: 95%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.title_container {
+    height: 50px;
+    width: auto;
+    margin: 0px;
+    position: relative;
+    top: 13px;
+}
+
+#site_title {
+    
+    font-size: 20px;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav {
+   position: absolute;
+   top: 0px;
+   right: 2.5%;    
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 0px 5px 0px 5px;
+}
+
+nav ul li:hover{
+    display: inline-block;
+    list-style: none;
+    padding: 0px 5px 0px 5px;
+    text-decoration: underline;
+}
+
+/*main elements*/
+main {
+    padding-top: 50px;
+}
+
+.even {
+    background-color: #6b911b;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 80%;
+    height: auto;
+    padding-left: 10%;
+    padding-right: 10%;
+    color: #ffffff;
+}
+
+.odd {
+    background-color: #ffffff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 80%;
+    height: auto;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#description table {
+    padding: 0px;
+    margin: 0px;
+}
+
+#description p {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.cottage-img {
+    width: 40vw;
+    height: auto;
+}
+
+#location {
+    text-align: center;
+}
+
+#location h1 {
+    text-align: left;
+}
+
+#booking p {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+#contacts table {
+    width: 100%;
+}
+
+/*misc*/
+.bold {
+    font-weight: 400;
+}
